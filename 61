@@ -1,0 +1,64 @@
+# mySet = {0}
+# print(mySet)
+# print(type(mySet))
+
+# mySet = set()
+# print(mySet)
+
+# mySet = {1, 1, 1, 1, 2, 2, 2, 2, 'a', 'a', 'a', 'A'}
+# mySet = {1, 2, 3, 4, 5, 6}
+# print(mySet)
+
+# my_set1 = set()
+# my_set1.add('tomato')
+# # my_set1.add(1)
+# print(my_set1)
+
+# my_set2 = set()
+# my_set2.add('potato')
+# # my_set2.add('tomato')
+# # my_set2.add(1)
+# print(my_set2)
+
+# print(my_set1.isdisjoint(my_set2))
+
+# my_set1.update(my_set2)
+# print(my_set1)
+# print(my_set2)
+
+# my_set3 = my_set1.union(my_set2)
+# print(my_set1)
+# print(my_set2)
+# print(my_set3)
+
+# print(my_set1.issubset(my_set3))
+# print(my_set2.issubset(my_set3))
+# print(my_set3.issubset(my_set1))
+
+my_set = {'Apple', 'Tesla', 'McDonalds'}
+set1 = {'Samsung'}
+set2 = {'Apple', 'IBM'}
+set3 = {'BMW', "Tesla", 'Ferrari'}
+
+# print(my_set.intersection(set1))
+# print(my_set.intersection(set2))
+# print(my_set.intersection(set3))
+
+# print(my_set.difference(set1))
+# print(my_set.difference(set2))
+# print(my_set.difference(set3))
+# print()
+# print(my_set.symmetric_difference(set1))
+# print(my_set.symmetric_difference(set2))
+# print(my_set.symmetric_difference(set3))
+
+my_set = {'Apple', 'Tesla', 'McDonalds'}
+# my_set.pop()
+# print(my_set)
+
+my_set.discard('BMW')
+print(my_set)
+
+my_set = {'Apple', 'Tesla', 'McDonalds'}
+my_set.remove('BMW')
+print(my_set)

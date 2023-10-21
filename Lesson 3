@@ -1,0 +1,127 @@
+# something1 = 15 - integer - int 
+# something2 = '15' or "15" - string - str
+# something3 = 15.0 - float 
+
+# something1 = 15
+# something2 = '15'
+# something3 = 15.0
+
+# print(type(something1))
+# print(type(something2))
+# print(type(something3))
+
+# bool - Booling 
+# 14 55 36 1100000 89 45 
+# 15.015554  78965.0000
+# 'QWERTY' "      " "151fsdfs#$%^"
+# something4 = True
+# something5 = False
+# print(type(something4))
+# print(type(something5))
+# print(10 + 5)
+# print(10 == 10)
+# print(10 < 9)
+
+
+my_string = "Hello Python"
+
+# h = "Hello"
+# p = input('Input ')
+
+# Конкатенация
+# print('Hello' + 'Python')
+# print('hello','python')
+# print(h + p)
+# res = h + p
+# print(res)
+# Диблирование
+# print(h * 5)
+# print('Python' * 10)
+
+
+my_string = "Hello Python"
+myStr = 'This is a multi-line string (text)'
+# print(len(my_string))
+# print(len(myStr))
+# my_string = "Hello Python"
+# print(my_string[0])
+# print(my_string[6])
+# # Срезы строк
+# print(my_string[0:3]) # 0 1 2
+# print(my_string[6:])
+# print(my_string[:5])
+# # print(my_string[start:stop:step])
+# my_string = "Hello start Python"
+# print(my_string[0:11:2]) # 0 2 4 6 8 10 -> H l o P t o
+# print(my_string[::-1])
+# print(my_string[-1:-13:-1])
+# print(my_string[-2:])
+
+myStr = 'This is a multi-line string (text)'
+
+# print(myStr.count('i'))
+# print(myStr.count('s'))
+# print(myStr.count(' ') + 1)
+
+
+# print(myStr.title())
+# print(myStr)
+# myStr = 'this is A Multi-Line stRing (Text)'
+# print(myStr.capitalize())
+
+# print(myStr.upper())
+# print(myStr.lower())
+
+# print(myStr.swapcase())
+
+
+# myStr = 'This is a multi-line string (text)'
+
+# print(myStr.find('m'))
+# print(myStr.find('A'))
+
+# print(myStr.index('m'))
+# # print(myStr.index('A'))
+
+# print(myStr.rfind('('))
+# start = myStr.rfind('(')
+
+# myStr = 'This is a multi-line string (text)!'
+
+# print(myStr.startswith('This'))
+# print(myStr.endswith('!'))
+# print(myStr.endswith('?'))
+
+# s = '01234Q56789'
+# print(s.isdigit())
+# print(s.isnumeric())
+# s = "Hello Python"
+# print(s.isalpha())
+# s = '125Gfr'
+# print(s.isalnum())
+
+# s = "hello Python"
+# print(s.islower())
+# s = "HELLO PYTHOn"
+# print(s.isupper())
+# s = "        "
+# print(s.isspace())
+
+j = "our jungle is very dense and impassable. There are many dangerous monsters in them"
+
+# n = 'Jenya'
+# n = 'Hello monsters many Jenya'
+# index = n.find('J')
+# # print(index)
+# print(n[index])
+
+j = "our jungle is very dense and impassable. There are many dangerous monsters in them"
+
+index_T = j.find('T')
+index_u = j.find('u')
+index_r = j.find('r')
+index_t = j.find('t')
+index_l = j.find('l')
+index_e = j.find('e')
+word = j[index_T] + j[index_u] + j[index_r] + j[index_t] + j[index_l] + j[index_e] 
+print(word)

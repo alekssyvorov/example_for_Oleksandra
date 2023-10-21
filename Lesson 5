@@ -1,0 +1,83 @@
+my_lst = []
+# num = 10
+# print(type(num))
+# print(type(my_lst))
+
+# my_lst = [1, 45, 87.56, "Hello", True, 150]
+
+# print(my_lst[1])
+# print(my_lst)
+
+# my_lst.append(500)
+# print(my_lst)
+# word = my_lst[3]
+# print(word)
+
+# my_lst[3] = 0.05
+# print(my_lst)
+
+import random
+
+a = random.randint(-50, 50) # -50 до 50 - будет какое-то случайное число
+print('a=', a)
+
+my_lst = []
+my_lst.append(a)
+print(my_lst)
+a = random.randint(-50, 50)
+my_lst.append(a)
+print(my_lst)
+
+my_lst = [1, 45, 87.56, "Hello", True, 150]
+
+print(my_lst[3])
+
+my_lst[0] = 88
+print(my_lst)
+
+my_lst.append(200)
+print(my_lst)
+
+my_lst.insert(1, "Python")
+print(my_lst)
+
+my_lst.pop()
+print(my_lst)
+
+my_lst.pop(4)
+print(my_lst)
+my_lst.pop(1)
+print(my_lst)
+my_lst = [88, 45, 87.56, True, 150, 45, 45]
+print(my_lst.count(45))
+print(my_lst.index(True))
+
+my_lst.remove(True)
+print(my_lst)
+
+my_lst = [2, 5, 1, 3, 7, 4, 10, 6]
+# my_lst.sort()
+# print(my_lst)
+my_lst.sort(reverse=True)
+print(my_lst)
+my_lst.reverse()
+print(my_lst)
+
+# Кортежи - тюплы - tuple
+
+my_tpl = ()
+[2, True, "Hello", 10, 2, 80, 2, 5, 2, 2, 2]
+(2, True, "Hello", 10, 2, 80, 2, 5, 2, 2, 2)
+print(type(my_tpl))
+
+my_tpl = (2, True, "Hello", 10)
+print(my_tpl[2])
+
+# my_tpl[1] = False
+my_tpl = (2, True, "Hello", 10, 2, 80, 2, 5, 2, 2, 2)
+print(my_tpl.count(2))
+print(my_tpl.index(True))
+print(my_tpl.index(10))
+print(my_tpl.index(80))
+my_lst = 1, 5, 100, 45, 69
+print(type(my_lst))

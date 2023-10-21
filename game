@@ -1,0 +1,38 @@
+from random import randint
+
+
+while True:
+    comp = randint(0, 10)
+    commanda = {}
+    user = ''
+    count = 0
+    name = input('Введите свое имя')
+    commanda[name] = count
+    while user != comp:
+        user = int(input('Input number '))
+        if user < comp:
+            print('Ваше число меньше')
+        elif user > comp:
+            print('Ваше число больше')
+        count += 1
+        commanda[name] = count
+    name = input('Введите свое имя')
+    count = 0
+    commanda[name] = count
+    comp = randint(0, 10)
+    user = ''
+    while user != comp:
+        user = int(input('Input number '))
+        if user < comp:
+            print('Ваше число меньше')
+        elif user > comp:
+            print('Ваше число больше')
+        count += 1
+        commanda[name] = count
+    print('Поздравляю', list(commanda.keys())[0], 'угадали с', list(commanda.values())[0], 'попытки')
+    print('Поздравляю', list(commanda.keys())[1], 'угадали с', list(commanda.values())[1], 'попытки')
+    contin_game = input('Хотите играть еще раз? y/n')
+    if contin_game == 'n':
+        print('Вы закончили игру')
+        break
+    

@@ -1,0 +1,55 @@
+# import turtle
+
+
+# turtle.shape('turtle')
+# turtle.forward(100)
+# turtle.left(90)
+
+from turtle import *
+
+w = 100
+h = 100
+shape('turtle')
+title('My Turtle')
+setup(500, 600)
+pensize(5)
+speed(10)
+
+color('red', '#20fae9')
+
+begin_fill()
+forward(w)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
+end_fill()
+
+up()
+goto(-100, 200)
+down()
+
+color('green', 'green')
+begin_fill()
+left(180)
+circle(50)
+end_fill()
+
+up()
+goto(-100, -120)
+down()
+
+left(180)
+color('yellow', 'blue')
+forward(100)
+left(120)
+forward(100)
+left(120)
+forward(100)
+
+
+
+exitonclick()

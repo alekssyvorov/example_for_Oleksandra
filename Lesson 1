@@ -1,0 +1,37 @@
+# number = 15
+
+# age = 18
+
+# myNameIs = "Oleg"
+# my_name_is = "Oleg"
+
+# print(number)
+# print(number, age)
+
+
+number = 20
+# int
+# float
+
+
+# 55.45
+# type(number)
+# print(type(number))
+# price = 55.45
+# print(type(price))
+
+# name = "Oleg"
+
+# hello_world = "Hello World"
+
+# hello = 'Hello'
+
+# name = input('Введи свое имя: ')
+# print(hello, name)
+
+
+print('       """')
+print("'''")
+print('|')
+print('|')
+print("I'm")
